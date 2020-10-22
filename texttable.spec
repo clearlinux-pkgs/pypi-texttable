@@ -4,7 +4,7 @@
 #
 Name     : texttable
 Version  : 0.9.1
-Release  : 7
+Release  : 8
 URL      : https://github.com/foutaise/texttable/archive/v0.9.1.tar.gz
 Source0  : https://github.com/foutaise/texttable/archive/v0.9.1.tar.gz
 Summary  : module for creating simple ASCII tables
@@ -21,12 +21,7 @@ BuildRequires : tox
 BuildRequires : virtualenv
 
 %description
-# texttable
-Python module for creating simple ASCII tables
-## Availability
-This module is available on [PypI](https://pypi.python.org/pypi/texttable/0.9.1), and has been packaged for several Linux/Unix platforms
-([Debian](https://packages.debian.org/search?&searchon=names&keywords=python-texttable+),
-[FreeBSD](https://www.freebsd.org/cgi/ports.cgi?query=texttable&stype=all), Fedora, Suse...).
+characters.
 
 %package license
 Summary: license components for the texttable package.
@@ -64,12 +59,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582910852
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1603406061
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
-export FCFLAGS="$CFLAGS -fno-lto "
-export FFLAGS="$CFLAGS -fno-lto "
+export FCFLAGS="$FFLAGS -fno-lto "
+export FFLAGS="$FFLAGS -fno-lto "
 export CXXFLAGS="$CXXFLAGS -fno-lto "
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
