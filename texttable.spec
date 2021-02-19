@@ -4,7 +4,7 @@
 #
 Name     : texttable
 Version  : 0.9.1
-Release  : 11
+Release  : 12
 URL      : https://github.com/foutaise/texttable/archive/v0.9.1.tar.gz
 Source0  : https://github.com/foutaise/texttable/archive/v0.9.1.tar.gz
 Summary  : module for creating simple ASCII tables
