@@ -4,7 +4,7 @@
 #
 Name     : texttable
 Version  : 0.9.1
-Release  : 20
+Release  : 21
 URL      : https://github.com/foutaise/texttable/archive/v0.9.1.tar.gz
 Source0  : https://github.com/foutaise/texttable/archive/v0.9.1.tar.gz
 Summary  : module for creating simple ASCII tables
@@ -14,11 +14,11 @@ Requires: texttable-license = %{version}-%{release}
 Requires: texttable-python = %{version}-%{release}
 Requires: texttable-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
-BuildRequires : py-python
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(py)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 characters.
@@ -59,7 +59,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1603406061
+export SOURCE_DATE_EPOCH=1644191761
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
