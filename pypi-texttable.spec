@@ -4,7 +4,7 @@
 #
 Name     : pypi-texttable
 Version  : 1.6.4
-Release  : 27
+Release  : 28
 URL      : https://files.pythonhosted.org/packages/d5/78/dbc2a5eab57a01fedaf975f2c16f04e76f09336dbeadb9994258aa0a2b1a/texttable-1.6.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d5/78/dbc2a5eab57a01fedaf975f2c16f04e76f09336dbeadb9994258aa0a2b1a/texttable-1.6.4.tar.gz
 Summary  : module for creating simple ASCII tables
