@@ -1,5 +1,5 @@
 PKG_NAME := pypi-texttable
-URL = https://files.pythonhosted.org/packages/d5/78/dbc2a5eab57a01fedaf975f2c16f04e76f09336dbeadb9994258aa0a2b1a/texttable-1.6.4.tar.gz
+URL = https://files.pythonhosted.org/packages/e4/84/4686ee611bb020038375c5f11fe7b6b3bb94ee78614a1faba45effe51591/texttable-1.6.7.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
